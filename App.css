@@ -1,0 +1,262 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+.transform-common{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+}
+/* Navbar Styling */
+.navbarcontainer, .navbarcontainer-desktop{
+  width: 100%;
+  height: 80px;
+  background-color: black;
+}
+.navbarcontainer > nav, .navbarcontainer-desktop > nav{
+  height: inherit;
+  padding: 0 4rem;
+}
+.navbarcontainer > nav > ul, .navbarcontainer-desktop > nav > ul{
+  display: flex;
+  gap: 4rem;
+  height: inherit;
+  align-items: center;
+}
+.navbarcontainer > nav > ul > li a, .navbarcontainer-desktop > nav > ul > li a{
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+}
+.navbarcontainer > nav > ul > li a:hover, .navbarcontainer-desktop > nav > ul > li a:hover{
+  color: rgb(238, 223, 223);
+  list-style-type: none;
+  text-decoration: underline;
+}
+.nav-svg{
+    width: 100%;
+    height: 70px;
+    background-color: red;
+     display: none;
+}
+.nav-svg div{
+  color: white;
+  top: 1%;
+    position: absolute;
+    right: 0;
+   
+}
+.nav-svg div svg{
+  width: 50px;
+  height: 50px;
+}
+.mob-nav{
+  display: block;
+}
+.mainpage{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  background: #2d3335;
+  /* background: linear-gradient(90deg, rgba(42, 123, 155, 1) 16%, rgba(87, 199, 133, 1) 54%, rgba(237, 221, 83, 1) 100%); */
+}
+.mainpage ul{
+  display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+   margin: 1rem 3rem;
+}
+.mainpage ul li{
+  list-style-type: none;
+}
+
+.footer{ 
+  width: 100%;
+  height: 100px;
+  position: relative;  
+  bottom: 0;
+  background: #2A7B9B;
+  background: linear-gradient(90deg, rgba(42, 123, 155, 1) 16%, rgba(87, 199, 133, 1) 54%, rgba(237, 221, 83, 1) 100%);
+}
+.footer_text{ 
+  text-align: center;
+  font-size: 22px;
+}
+.contact-container{
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+}
+.contact-section{
+  width: 100%;
+  height: 100vh;
+}
+.contact-top{
+  width: 100%;
+  height: 40vh;
+  position: relative;
+  background-color: rgba(255, 0, 0, 0.123); 
+  background-image: url('../public/vinoth.jpg');
+  background-size: 100%;
+  }
+.contact-top h1{
+  font-size: 6em;
+  color: white;
+  font-weight: 800;
+  text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.contact-bottom{
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  display: flex;
+}
+.contact-bottom-left{
+  width: 50%;  
+  height: inherit;
+  background-color: rgb(59, 59, 59); 
+}
+.contact-bottom-right{
+  width: 50%;
+   height: inherit;
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN5nMohaO2F2Vdl3CbSZ_S4fLyCpFvawhygQ&s); */
+  background-size: 100%;
+  background-color: black;
+ 
+}
+.contact-bottom-right div{
+  width: 100%;
+   height: inherit; 
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+.contact-email{
+  margin-top: 2rem !important;
+}
+.contact-email, .contact-phone, .contact-text{
+  margin: 0 auto;
+    text-align: left;
+    width: 50%;
+    position: relative;
+}
+.contact-email h2, .contact-phone h2, .contact-text h2{
+  font-size: 1.5em;
+  color: white;
+}
+input {
+  padding: 1rem;
+}
+textarea{
+  padding: 1rem;
+  width: 100%;
+  height: 146px;
+}
+button{
+  text-align: center;
+    padding: 1rem 3rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slick-next{
+  position: absolute;
+  left: 100% !important;
+}
+.contact-bottom-right div h1, .contact-bottom-right div p{
+  color: white;
+  padding: 2rem;
+} 
+@media (max-width: 600px) {
+  .footer{
+    height: 50px;
+  }
+ .footer_text{ 
+  text-align: center;
+  font-size: 12px;
+}
+.nav-svg{
+  display: block;
+  z-index: 11;
+}
+.navbarcontainer{
+  height: auto;
+}
+.navbarcontainer nav{
+  padding: 0;
+}
+
+.navbarcontainer > nav > ul{
+  display: block; 
+  height: inherit;
+}
+.navbarcontainer > nav > ul > li{
+ padding: 1.5rem 0;
+ text-align: center;
+ border-bottom: 1px solid #ffffff29;
+}
+
+.navbarcontainer-desktop{
+  height: auto;
+  background-color: red;
+  display: none;
+  
+}
+.navbarcontainer-desktop nav{
+  padding: 0;
+}
+
+.navbarcontainer-desktop > nav > ul{
+  display: block; 
+  height: inherit;
+}
+.navbarcontainer-desktop > nav > ul > li{
+ padding: 1.5rem 0;
+ text-align: center;
+ border-bottom: 1px solid #ffffff29;
+}
+.contact-bottom{
+  display: block;
+  height: 54vh;
+}
+.contact-email, .contact-phone, .contact-text{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.contact-bottom-left{
+  width: 100%;
+}
+textarea{
+  width: 90%;
+}
+.contact-top{
+  height: 25vh;
+}
+.contact-email{
+  margin-top: 0rem !important;
+}
+.contact-email h2{
+  margin: 0rem 0 !important;
+  padding-top: 1rem;
+}
+.contact-bottom-right{
+  display: none;
+}
+.contact-container{
+  height: 84vh;
+}
+.contact-section{
+  height: 79vh;
+}
+.slick-next{
+  left: 103%;
+}
+}
