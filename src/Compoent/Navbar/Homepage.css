@@ -1,0 +1,140 @@
+.Homepage-container{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    background-color: aqua;
+    background-image: url('../../../public/banner.jpg');
+}
+.banner-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    background-image: url('../../../public/banner.jpg');
+    clip-path: polygon(0 0, 0% 100%, 100% 0);
+    background: linear-gradient(90deg, rgb(9 18 22 / 44%) 16%, rgb(24 24 17 / 44%) 100%);
+}
+.banner-clip{
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    clip-path: polygon(0 0, 0% 100%, 100% 0);
+    background-image: url(https://d1nslcd7m2225b.cloudfront.net/Pictures/480xany/1/0/1/1368101_rrr_35980.jpg);
+    background-size: 58% auto;
+}
+.overlay-bg{
+     position: relative;
+    width: 100%;
+    height: 100%;
+   background: linear-gradient(90deg, rgb(9 18 22 / 44%) 16%, rgb(24 24 17 / 44%) 100%);
+}
+.banner-Head-copy{
+    width: 60%;
+    height: 75%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.banner-para{
+     width: 60%;
+    height: 25%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 75%;
+}
+.banner-Head-copy h1{
+    z-index: 11;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    transform: translate(0%, -100%);
+    color: white;
+    font-weight: 800;
+    font-size: 5em;
+    line-height: 1;
+    text-shadow: -5px 0px 6px black;
+}
+.banner-para h2{
+    top: 0%;
+    font-weight: 700; 
+    z-index: 11;
+    position: absolute; 
+    left: 0%;
+    transform: translate(0%, 0%);
+    color: white; 
+    line-height: 1;
+    font-size: 2em;
+}
+.trending-section, .trending-tamil-section{
+    width: 100%;
+     height: 80%;
+      background: linear-gradient(90deg, rgb(7 6 18) 16%, rgb(0 0 0) 100%);   
+      position: relative;
+      padding: 2rem 2rem 6rem 2rem;
+}
+.trending-tamil-section{
+    padding-bottom: 6rem;
+}
+.trending-head h1, .trending-tamil-head h1{
+    color: white;
+    z-index: 1;
+    position: relative;
+    text-shadow: 4px 0px 8px #000000;
+}
+.trending-list, .trending-tamil-list{
+    margin-top: 2rem;
+    position: relative;
+    z-index: 1;
+}
+.trending-bottom, .trending-tamil-bottom{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 68%;
+    background-color: red;
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    background-image: url(https://mcdn.wallpapersafari.com/medium/39/67/uyegXf.jpg);
+    filter: blur(10px);
+}
+.trending-tamil-bottom{ 
+    top: 170%;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    background-image: url(https://mrwallpaper.com/images/thumbnail/ready-to-save-the-universe-8z8qnac9a48liakb.jpg);
+}
+.webseries-bottom{
+    top: 240%;
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    background-image: url(https://mcdn.wallpapersafari.com/medium/39/67/uyegXf.jpg);
+}
+.img-link{
+    text-decoration: none !important;
+    color: #535353 !important;
+    font-weight: bold !important;
+}
+.img-link:hover{
+    color: #000 !important;
+}
+@media (max-width: 600px) {
+    .Homepage-container, .banner-clip{
+        background-image: none;
+        background-color: black;
+    }
+    .banner-Head-copy, .banner-para{
+        width: 96%;
+        margin-left: 0.5rem;
+    } 
+    .trending-bottom{
+        height: 96%;
+    }
+    .trending-tamil-bottom{
+        top: 200%;
+        height: 91%;
+    }
+    .webseries-bottom{
+        top: 302%;
+        height: 64%;
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "movies":[
+        {
+            "id": 1,
+            "img": "https://musicart.xboxlive.com/7/83db6600-0000-0000-0000-000000000002/504/image.jpg",
+            "print": "HD Movie",
+            "name": "Resident Evil Death Island",
+            "video": "https://dub.onestream.watch/stream/video/90954",
+            "year": 2023
+        },
+        {
+            "id": 2,
+            "img": "https://i.ytimg.com/vi/Q8ByaMq7Jcs/maxresdefault.jpg",
+            "print": "HD Movie",
+            "name": "Prey",
+            "video": "https://dub.onestream.watch/stream/video/97218",
+            "year": 2024
+        },
+        {
+            "id": 3,
+            "img": "https://i.ytimg.com/vi/5a09yJU-mCI/maxresdefault.jpg",
+            "print": "HD Movie",
+            "name": "Transformers One",
+            "video": "https://dub.onestream.watch/stream/video/97239",
+            "year": 2024
+        },
+        {
+            "id": 4,
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXdSZJ3qSQcOSyWJUqXuTVSiUdXbN7D06Q8Q&s",
+            "print": "HD Movie",
+            "name": "A Quiet Place Day One",
+            "video": "https://dub.onestream.watch/stream/video/95562",
+            "year": 2024
+        },
+        {
+            "id": 5,
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcofxRNxfu_18_APoVwklq8-7aavPGpPZm9g&s",
+            "print": "HD Movie",
+            "name": "A Quiet Place Part 2",
+            "video": "https://dub.onestream.watch/stream/video/79724",
+            "year": 2021
+        },
+        {
+            "id": 6,
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsZSJ6zCHKqrvZ5AgBXFiR9b2nv5p4GEPc0w&s",
+            "print": "HD Movie",
+            "name": "Puss in Boots The Last Wish",
+            "video": "https://dub.onestream.watch/stream/video/88688",
+            "year": 2022
+        },
+        {
+            "id": 7,
+            "img": "https://m.media-amazon.com/images/S/pv-target-images/e96b843dbed9eb016428528f162f8d85d12c1181f02e7eb34c58966afa501bb2.jpg",
+            "print": "HD Movie",
+            "name": "Jurassic World Dominion",
+            "video": "https://dub.onestream.watch/stream/video/86722",
+            "year": 2022
+        },
+        {
+            "id": 8,
+            "img": "https://ntvb.tmsimg.com/assets/p19458781_v_h8_ad.jpg?w=1280&h=720",
+            "print": "HD Movie",
+            "name": "Uncharted",
+            "video": "https://dub.onestream.watch/stream/video/84892",
+            "year": 2022
+        },
+        {
+            "id": 9,
+            "img": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/10/Franchise-Crossover---Spider-Man-No-Way-Home.jpg?q=70&fit=contain&w=1200&h=628&dpr=1",
+            "print": "HD Movie",
+            "name": "SpiderMan No Way Home",
+            "video": "https://dub.onestream.watch/stream/video/85136",
+            "year": 2021
+        }
+         
+        
+    ]
+}

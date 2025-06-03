@@ -1,0 +1,48 @@
+.movieCard-container{
+    width: 300px;
+    height: 290px;
+    background: #000; 
+    position: relative; 
+    border-radius: 12px;
+    box-shadow: 0px 6px 14px #181818;
+}
+.thumb{
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.thumb img{
+    max-width: 100%;
+}
+.text-container{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.text-container h2, .text-container h3{
+    color: #999999;
+    text-decoration: none; 
+}
+h3{
+     font-size: 90%;
+}
+h2{
+    font-size: 18px; 
+    margin: 0.5rem 0;
+}
+.likes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.likes svg{
+    fill: red;
+    width: 1.5em;
+    height: 1.5em;
+}
+.likes p{
+    color: #fff;
+}
+Link{
+    text-decoration: none;
+}
